@@ -6,8 +6,9 @@ function App() {
       <div className='title-container'>
 
         <h1>
-          Hyperland Comming Soon!
+          Hyperland<br />
         </h1>
+        <p>Comming Soon!</p>
       </div>
     </div>
   );
