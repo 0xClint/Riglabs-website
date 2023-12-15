@@ -6,7 +6,7 @@ function App() {
       <div className='title-container'>
 
         <h1>
-          Hyperland<br />
+          Hyperland | Arcave<br />
         </h1>
         <p>Comming Soon!</p>
       </div>
