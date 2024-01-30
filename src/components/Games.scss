@@ -1,0 +1,48 @@
+@import "../styles/mixin.scss";
+
+.games-container {
+  //   @include Flex();
+  padding: 10rem 7.5rem;
+  background-color: black;
+  color: white;
+  border-radius: 100px 100px 0 0;
+  .games-title {
+    @include Flex();
+    justify-content: space-between;
+    align-items: flex-end;
+    div {
+      color: black;
+      h2 {
+        margin: 0;
+        line-height: 100%;
+        font-weight: 500;
+        font-size: 8rem;
+        -webkit-text-stroke-width: 2px;
+        color: black;
+        -webkit-text-stroke-color: white;
+      }
+      .our {
+        color: white;
+      }
+    }
+    .btn {
+      font-size: 1.2rem;
+      width: 250px;
+      padding: 1.5rem 0;
+    }
+  }
+  .game-item-container {
+    margin: 5rem 0;
+    @include Flex();
+    flex-direction: column;
+    gap: 3rem;
+    .game-item {
+      width: 100%;
+      font-size: 3rem;
+      height: 550px;
+      border-radius: 30px;
+      background-color: burlywood;
+      @include Flex();
+    }
+  }
+}

@@ -8,8 +8,11 @@
   border-radius: 100px 100px 0 0;
   .features-left {
     grid-column: 1;
-    width: 40%;
+    width: 470px;
     .features-left-content {
+      @include Flex();
+      flex-direction: column;
+      gap: 4rem;
       .features-item {
         display: flex;
         gap: 1rem;
@@ -47,8 +50,43 @@
     }
   }
   .features-right {
-    width: 60%;
+    // width: 40vw;
     grid-column: 2;
-    position: sticky;
+    .features-right-inner {
+      position: sticky;
+      top: 50px;
+      margin-left: 2rem;
+      text-align: right;
+      align-items: flex-end;
+      justify-content: flex-end;
+      h2 {
+        margin: 0;
+        line-height: 100%;
+        font-weight: 500;
+        font-size: 8rem;
+        -webkit-text-stroke-width: 2px;
+        color: white;
+        -webkit-text-stroke-color: black;
+      }
+      .our {
+        color: black;
+      }
+      p {
+        margin: 20px 0;
+        text-align: right;
+        font-family: "pontano Sans";
+        font-weight: 600;
+        color: $dark-gray;
+        font-size: 1.3rem;
+        line-height: 150%;
+        margin-bottom: 1rem;
+        @include Flex();
+        justify-content: flex-end;
+        align-items: flex-end;
+        div {
+          width: 500px;
+        }
+      }
+    }
   }
 }

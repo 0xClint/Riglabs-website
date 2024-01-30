@@ -4,4 +4,7 @@ export { default as Intro } from "./Intro";
 export { default as Footer } from "./Footer";
 export { default as Connect } from "./Connect";
 export { default as Features } from "./Features";
+export { default as Games } from "./Games";
+export { default as Team } from "./Team";
+
 
