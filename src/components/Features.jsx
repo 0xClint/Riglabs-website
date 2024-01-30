@@ -7,18 +7,17 @@ const Features = () => {
       <div className="features-left">
         <div className="features-left-content">
           <div className="features-item">
-            <div className="features-item-upper">
+            <div className="features-item-left">
               <img />
-              <div></div>
             </div>
-            <div className="features-item-lower">
+            <div className="features-item-right">
               <h2>GAME DEVELOPMENT</h2>
               <p>
                 Our works have been internationally recognized for their design,
                 stories and art direction. Together, we can transform your ideas
                 into captivating games, on desktop, mobile or console.
               </p>
-              <button className="btn">Learn More</button>
+              <button className="btn-secondary">Learn More</button>
             </div>
           </div>
         </div>

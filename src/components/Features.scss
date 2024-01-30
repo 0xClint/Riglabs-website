@@ -11,22 +11,37 @@
     width: 40%;
     .features-left-content {
       .features-item {
-        .features-item-upper {
-          display: flex;
+        display: flex;
+        gap: 1rem;
+
+        .features-item-left {
+          @include Flex();
+          justify-content: flex-start;
           height: 100px;
+          gap: 1rem;
           img {
-            width: 100px;
-            height: 100px;
+            width: 70px;
+            height: 70px;
             background-color: aquamarine;
-            border-radius: 15px;
-          }
-          div {
-            height: 10px;
-            width: 80%;
-            background-color: aquamarine;
+            border-radius: 10px;
           }
         }
-        .features-item-lower {
+        .features-item-right {
+          h2 {
+            margin: 0;
+            line-height: 100px;
+            font-weight: 500;
+            font-size: 3rem;
+          }
+          p {
+            margin: 0;
+            font-family: "pontano Sans";
+            font-weight: 600;
+            color: $dark-gray;
+            font-size: 1.1rem;
+            line-height: 150%;
+            margin-bottom: 1rem;
+          }
         }
       }
     }

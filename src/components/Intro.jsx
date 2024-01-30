@@ -27,7 +27,7 @@ const Intro = () => {
               sagittis. Aliquam id diam maecenas ultricies mi eget mauris. or
               eget dolor morbi non arcu. Curabitur gravida arcu ac tortor.
             </p>
-            <button className="btn-intro">More About Us</button>
+            <button className="btn-secondary">More About Us</button>
           </div>
         </div>
       </div>
