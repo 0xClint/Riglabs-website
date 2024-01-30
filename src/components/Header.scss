@@ -1,0 +1,32 @@
+@import "../styles/mixin.scss";
+
+.header-container {
+  @include Flex();
+  font-family: "poppins";
+  justify-content: space-between;
+
+  .header-left {
+    width: 20%;
+    font-family: "anton";
+    font-size: 2rem;
+    // padding: 2rem 0;
+    @include Flex();
+  }
+  .header-middle {
+    width: 50%;
+    @include Flex();
+    justify-content: space-around;
+    padding: 2rem;
+    // font-weight: 600;
+    // text-transform: uppercase;
+    cursor: pointer;
+    // gap: 4rem;
+    list-style: none;
+  }
+  .header-right {
+    width: 20%;
+    padding: 2rem 0;
+    @include Flex();
+    list-style: none;
+  }
+}

@@ -1,16 +1,14 @@
-import './App.css';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import './App.scss';
+import { Home } from "./pages";
 
 function App() {
   return (
-    <div className="App">
-      <div className='title-container'>
-
-        <h1>
-          Hyperland | Arcave<br />
-        </h1>
-        <p>Comming Soon!</p>
-      </div>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" exact element={<Home />} />
+      </Routes>
+    </Router>
   );
 }
 
