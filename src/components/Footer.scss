@@ -1,0 +1,52 @@
+@import "../styles/mixin.scss";
+
+.footer-outer-container {
+  background-color: rgb(20, 32, 32);
+  padding: 6rem 7rem;
+  font-family: "pontano Sans";
+
+  .footer-container {
+    display: flex;
+    .footer-left {
+      width: 30%;
+      color: $gray;
+      div {
+        height: 50px;
+        font-size: 2rem;
+        font-weight: 600;
+      }
+      p {
+      }
+    }
+    .footer-right {
+      width: 70%;
+      @include Flex();
+      justify-content: space-around;
+      align-items: flex-start;
+
+      .footer-right-item {
+        text-align: center;
+        h3 {
+          font-size: 1.5rem;
+          margin: 10px 0;
+        }
+        .link-item {
+          @include Flex();
+          justify-content: flex-start;
+          align-items: flex-start;
+          flex-direction: column;
+          gap: 10px;
+          .link {
+            cursor: pointer;
+            color: white;
+            text-decoration: none;
+            color: $gray;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
