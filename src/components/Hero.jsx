@@ -14,7 +14,7 @@ const Hero = () => {
           Lorem ipsum dolor sit amet consectetur adipiscing diam tortor sit
           feugiat dictum eu diam
         </h3>
-        <button className="btn-game">Our Games</button>
+        <button className="btn">Our Games</button>
       </div>
     </div>
   );

@@ -41,4 +41,17 @@ body {
   background-color: black;
   color: white;
   font-family: "Anton", sans-serif;
+
+  .btn {
+    font-family: "anton";
+    text-transform: uppercase;
+    background-color: aqua;
+    padding: 1rem;
+    width: 150px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
 }

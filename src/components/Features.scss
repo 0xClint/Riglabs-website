@@ -1,0 +1,39 @@
+@import "../styles/mixin.scss";
+
+.features-container {
+  display: grid;
+  padding: 10rem 7.5rem;
+  background-color: white;
+  color: black;
+  border-radius: 100px 100px 0 0;
+  .features-left {
+    grid-column: 1;
+    width: 40%;
+    .features-left-content {
+      .features-item {
+        .features-item-upper {
+          display: flex;
+          height: 100px;
+          img {
+            width: 100px;
+            height: 100px;
+            background-color: aquamarine;
+            border-radius: 15px;
+          }
+          div {
+            height: 10px;
+            width: 80%;
+            background-color: aquamarine;
+          }
+        }
+        .features-item-lower {
+        }
+      }
+    }
+  }
+  .features-right {
+    width: 60%;
+    grid-column: 2;
+    position: sticky;
+  }
+}
