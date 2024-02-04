@@ -6,15 +6,15 @@ const Connect = () => {
     <div className="connect-container">
       <div className="connect-left">
         <h2>
-          DESIGN
-          <br /> CREATE & <br />
-          CONNECT
+          EXPLORE
+          <br /> BUIDL & <br />
+          COLLAB
         </h2>
         <p>
-          We are ready to deliver your vision across multiple platforms, mobile,
-          or desktop. Games are the language of the 21st century.
+          We are open minded game studio who belives in collaboration and that
+          working togethre can bring out more engaging games.
         </p>
-        <button className="btn">Let's Talk</button>
+        <button className="btn">Let's Connect</button>
       </div>
       <div className="connect-right">
         <img />

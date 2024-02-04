@@ -7,6 +7,7 @@ import {
   Header,
   Hero,
   Intro,
+  Sponsors,
   Team,
 } from "../components";
 
@@ -20,6 +21,7 @@ const Home = () => {
       <Connect />
       <Features />
       <Team />
+      <Sponsors />
       <Footer />
     </div>
   );

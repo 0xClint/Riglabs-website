@@ -9,7 +9,6 @@
   .games-title {
     @include Flex();
     justify-content: space-between;
-    align-items: flex-end;
     div {
       color: black;
       h2 {
@@ -20,9 +19,11 @@
         -webkit-text-stroke-width: 2px;
         color: black;
         -webkit-text-stroke-color: white;
+        display: inline-block;
       }
       .our {
         color: white;
+        margin-right: 20px;
       }
     }
     .btn {
@@ -37,12 +38,22 @@
     flex-direction: column;
     gap: 3rem;
     .game-item {
+      color: white;
       width: 100%;
       font-size: 3rem;
       height: 550px;
       border-radius: 30px;
-      background-color: burlywood;
+      background-color: black;
       @include Flex();
+      overflow: hidden;
+      img {
+        opacity: 0.5;
+      }
+
+      div {
+        position: absolute;
+        font-size: 4rem;
+      }
     }
   }
 }

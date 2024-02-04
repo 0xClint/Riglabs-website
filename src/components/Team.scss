@@ -1,4 +1,70 @@
 @import "../styles/mixin.scss";
 
 .team-container {
+  @include Flex();
+  flex-direction: column;
+  padding: 8rem 7.5rem;
+  background-color: white;
+  color: black;
+  border-radius: 100px 100px 0 0;
+  .team-title {
+    width: 100%;
+    @include Flex();
+    justify-content: space-between;
+    div {
+      color: black;
+      h2 {
+        margin: 0;
+        line-height: 100%;
+        font-weight: 500;
+        font-size: 8rem;
+        -webkit-text-stroke-width: 2px;
+        color: white;
+        -webkit-text-stroke-color: black;
+        display: inline-block;
+      }
+      .our {
+        color: black;
+        margin-right: 20px;
+      }
+    }
+    .btn {
+      font-size: 1.2rem;
+      width: 250px;
+      padding: 1.5rem 0;
+    }
+  }
+  .team-card-container {
+    margin: 5rem 0;
+    width: 100%;
+    @include Flex();
+    justify-content: space-between;
+    .team-card {
+      width: 290px;
+      height: 350px;
+      border-radius: 20px;
+      overflow: hidden;
+      @include Flex();
+      align-items: flex-end;
+      .title {
+        position: absolute;
+        width: 250px;
+        color: white;
+
+        h2 {
+          margin: 0;
+          font-weight: 500;
+          font-size: 2rem;
+          line-height: 100%;
+        }
+        p {
+          margin: 5px 0 7px 0;
+          font-size: 1.2rem;
+        }
+      }
+      img {
+        height: 100%;
+      }
+    }
+  }
 }

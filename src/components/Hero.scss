@@ -1,11 +1,18 @@
 @import "../styles/mixin.scss";
 
 .hero-container {
-  height: 100vh;
-  padding: 5rem 0;
-  //   @include Flex();
+  height: 103vh;
+  // padding: 5rem 0;
+  // margin: 4rem 0;
+  // @include Flex();
+
+  video {
+    width: 100%;
+  }
   .hero-content {
+    padding: 6rem 0;
     height: 100%;
+    position: absolute;
     margin: 0 7.5rem;
     p {
       font-size: 12rem;

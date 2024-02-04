@@ -6,20 +6,19 @@ const Intro = () => {
     <div className="intro-container">
       <div className="intro-left">
         <h2 className="intro-left-heading">
-          WE ARE THE GAME DEVELOPMENT STUDIO KNOWN FOR CRAFTING DISTINCTIVE AND
-          <span style={{ color: "black" }}> IMMERSIVE GAMES</span> THAT STAND
-          OUT IN THE MARKET.
+          WE ARE A WEB3 GAME STUDIO, CONNNECTING PEOPLE TO THEIR LOCAL LAND
+          <span style={{ color: "black" }}> "KNOW THYSELF"</span>
         </h2>
+        <h4> - SOCRATES</h4>
         <div className="intro-left-details">
           <div className="intro-left-photo">
             <img />
           </div>
           <div className="intro-left-content">
             <p>
-              Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Placerat in egestas
-              erat imperdiet sed. Libero id faucibus nisl tincidunt eget nullam
-              non nisi.
+              Built by IITians, started with a small team of two for fun!.
+              Placerat in egestas erat imperdiet sed. Libero id faucibus nisl
+              tincidunt eget nullam non nisi.
             </p>
             <p>
               Eu feugiat pretium nibh ipsum. Egestas purus viverra accumsan in
@@ -33,16 +32,16 @@ const Intro = () => {
       </div>
       <div className="intro-right">
         <div className="intro-right-item">
-          <div>10+</div>
-          <p>years experience working</p>
+          <div>4+</div>
+          <p>Hackathon wins</p>
+        </div>
+        <div className="intro-right-item">
+          <div>5+</div>
+          <p>Sponsors</p>
         </div>
         <div className="intro-right-item">
           <div>10+</div>
-          <p>years experience working</p>
-        </div>
-        <div className="intro-right-item">
-          <div>10+</div>
-          <p>years experience working</p>
+          <p>Community partners</p>
         </div>
       </div>
     </div>

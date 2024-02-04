@@ -1,5 +1,6 @@
 import React from "react";
 import "./Hero.scss";
+import { introVideo } from "../assets";
 
 const Hero = () => {
   return (
@@ -16,6 +17,7 @@ const Hero = () => {
         </h3>
         <button className="btn">Our Games</button>
       </div>
+      <video autoPlay muted loop src={introVideo} className="" />
     </div>
   );
 };
