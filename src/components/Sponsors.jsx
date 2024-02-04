@@ -1,6 +1,12 @@
 import React from "react";
 import "./Sponsors.scss";
-import { blocsocIcon, tablelandIcon } from "../assets";
+import {
+  blocsocIcon,
+  ethIndia23,
+  huddle01,
+  tablelandIcon,
+  unfold23,
+} from "../assets";
 
 const Sponsors = () => {
   return (
@@ -14,13 +20,13 @@ const Sponsors = () => {
         </div>
         <div className="sponsor-card-container">
           <div className="sponsor-card">
-            <img src={blocsocIcon} />
+            <img src={ethIndia23} />
           </div>
           <div className="sponsor-card">
-            <img src={tablelandIcon} />
+            <img src={unfold23} />
           </div>
           <div className="sponsor-card">
-            <img src={blocsocIcon} />
+            <img src={huddle01} />
           </div>
         </div>
       </div>
@@ -47,7 +53,7 @@ const Sponsors = () => {
         <div className="title">
           <div>
             <h2 className="our">OUR </h2>
-            <h2>SPONSOR</h2>
+            <h2>PARTNERS</h2>
           </div>
         </div>
         <div className="sponsor-card-container">

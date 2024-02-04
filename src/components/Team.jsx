@@ -16,28 +16,28 @@ const Team = () => {
         <div className="team-card">
           <img src={clintImg} />
           <div className="title">
-            <h2>Name</h2>
+            <h2>Shivam</h2>
             <p>posi</p>
           </div>
         </div>
         <div className="team-card">
           <img src={clintImg} />
           <div className="title">
-            <h2>Name</h2>
+            <h2>Omkar</h2>
             <p>posi</p>
           </div>
         </div>
         <div className="team-card">
           <img src={clintImg} />
           <div className="title">
-            <h2>Name</h2>
+            <h2>Vansh</h2>
             <p>posi</p>
           </div>
         </div>
         <div className="team-card">
           <img src={clintImg} />
           <div className="title">
-            <h2>Name</h2>
+            <h2>Alok</h2>
             <p>posi</p>
           </div>
         </div>
