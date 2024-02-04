@@ -13,8 +13,7 @@ const Header = () => {
         <li className="middle-item">Blogs</li>
       </div>
       <div className="header-right">
-        <li>insta</li>
-        <li>link</li>
+        <button className="btn">Donate</button>
       </div>
     </div>
   );

@@ -1,58 +1,66 @@
 @import "../styles/mixin.scss";
-
-.games-container {
-  //   @include Flex();
-  padding: 10rem 7.5rem;
-  background-color: black;
-  color: white;
-  border-radius: 100px 100px 0 0;
-  .games-title {
-    @include Flex();
-    justify-content: space-between;
-    div {
-      color: black;
-      h2 {
-        margin: 0;
-        line-height: 100%;
-        font-weight: 500;
-        font-size: 8rem;
-        -webkit-text-stroke-width: 2px;
-        color: black;
-        -webkit-text-stroke-color: white;
-        display: inline-block;
-      }
-      .our {
-        color: white;
-        margin-right: 20px;
-      }
-    }
-    .btn {
-      font-size: 1.2rem;
-      width: 250px;
-      padding: 1.5rem 0;
-    }
+.games-outer-container {
+  .upper-round {
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    transform: translateY(-100px);
+    background-color: black;
+    border-radius: 100px 100px 0 0;
   }
-  .game-item-container {
-    margin: 5rem 0;
-    @include Flex();
-    flex-direction: column;
-    gap: 3rem;
-    .game-item {
-      color: white;
-      width: 100%;
-      font-size: 3rem;
-      height: 550px;
-      border-radius: 30px;
-      background-color: black;
+  .games-container {
+    //   @include Flex();
+    padding: 2rem 7.5rem 12rem 7.5rem;
+    background-color: black;
+    color: white;
+    .games-title {
       @include Flex();
-      overflow: hidden;
-      img {
-        opacity: 0.5;
-      }
-
+      justify-content: space-between;
       div {
-        position: absolute;
-        font-size: 4rem;
+        color: black;
+        h2 {
+          margin: 0;
+          line-height: 100%;
+          font-weight: 500;
+          font-size: 8rem;
+          -webkit-text-stroke-width: 2px;
+          color: black;
+          -webkit-text-stroke-color: white;
+          display: inline-block;
+        }
+        .our {
+          color: white;
+          margin-right: 20px;
+        }
+      }
+      .btn {
+        font-size: 1.2rem;
+        width: 250px;
+        padding: 1.5rem 0;
+      }
+    }
+    .game-item-container {
+      margin: 5rem 0;
+      @include Flex();
+      flex-direction: column;
+      gap: 3rem;
+      .game-item {
+        color: white;
+        width: 100%;
+        font-size: 3rem;
+        height: 550px;
+        border-radius: 30px;
+        background-color: black;
+        @include Flex();
+        overflow: hidden;
+        img {
+          opacity: 0.5;
+        }
+
+        div {
+          position: absolute;
+          font-size: 4rem;
+        }
       }
     }
   }

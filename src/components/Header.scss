@@ -4,12 +4,12 @@
   @include Flex();
   font-family: "poppins";
   justify-content: space-between;
+  // padding: 2rem 0;
 
   .header-left {
     width: 20%;
     font-family: "anton";
     font-size: 2rem;
-    // padding: 2rem 0;
     @include Flex();
   }
   .header-middle {
@@ -17,15 +17,20 @@
     @include Flex();
     justify-content: space-around;
     padding: 2rem;
-    // font-weight: 600;
+    font-weight: 600;
     // text-transform: uppercase;
-    cursor: pointer;
     // gap: 4rem;
     list-style: none;
+    .middle-item {
+      cursor: pointer;
+      &:hover {
+        scale: 1.05;
+      }
+    }
   }
   .header-right {
     width: 20%;
-    padding: 2rem 0;
+    // padding: 2rem 0;
     @include Flex();
     list-style: none;
   }

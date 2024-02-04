@@ -41,6 +41,9 @@ body {
   background-color: black;
   color: white;
   font-family: "Anton", sans-serif;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+  overflow-x: hidden;
 
   .btn {
     font-family: "anton";
@@ -53,6 +56,11 @@ body {
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    transition: ease-in-out 200ms;
+    &:hover {
+      scale: 1.05;
+      transition: ease-in-out 200ms;
+    }
   }
   .btn-secondary {
     font-family: "anton";

@@ -1,44 +1,53 @@
 @import "../styles/mixin.scss";
 
-.sponsor-container {
-  //   @include Flex();
-  padding: 6rem 7.5rem;
-  background-color: black;
-  color: white;
-  border-radius: 100px 100px 0 0;
-  .title-container {
-    margin: 7rem 0;
-    .title {
-      @include Flex();
+.sponsor-outer-container {
+  .upper-round {
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    transform: translateY(-100px);
+    background-color: black;
+    border-radius: 100px 100px 0 0;
+  }
+  .sponsor-container {
+    //   @include Flex();
+    padding: 0.1rem 7.5rem 5rem 7.5rem;
+    background-color: black;
+    color: white;
+    .title-container {
+      margin: 5rem 0;
+      .title {
+        @include Flex();
 
-      div {
-        color: black;
-        h2 {
-          margin: 0;
-          line-height: 100%;
-          font-weight: 500;
-          font-size: 6rem;
-          -webkit-text-stroke-width: 2px;
+        div {
           color: black;
-          -webkit-text-stroke-color: white;
-          display: inline-block;
-        }
-        .our {
-          color: white;
-          margin-right: 20px;
+          h2 {
+            margin: 0;
+            line-height: 100%;
+            font-weight: 500;
+            font-size: 4rem;
+            -webkit-text-stroke-width: 2px;
+            color: black;
+            -webkit-text-stroke-color: white;
+            display: inline-block;
+          }
+          .our {
+            color: white;
+            margin-right: 20px;
+          }
         }
       }
     }
-  }
-  .sponsor-card-container {
-    @include Flex();
-    justify-content: space-around;
-    margin: 3rem 0;
-    gap: 3rem;
-    .sponsor-card {
-      width: 250px;
-      img {
-        width: 100%;
+    .sponsor-card-container {
+      @include Flex();
+      justify-content: space-around;
+      margin: 3rem 0;
+      gap: 3rem;
+      .sponsor-card {
+        width: 250px;
+        img {
+          width: 100%;
+        }
       }
     }
   }

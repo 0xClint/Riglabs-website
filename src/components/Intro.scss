@@ -1,74 +1,85 @@
 @import "../styles/mixin.scss";
 
-.intro-container {
-  @include Flex();
-  background-color: white;
-  padding: 10rem 7.5rem;
-  color: black;
-  border-radius: 100px 100px 0 0;
-  .intro-left {
-    width: 60%;
-
-    h4 {
-      text-align: right;
-      font-family: "pontano Sans";
-      font-weight: 700;
-      font-size: 1.5rem;
-      color: darkgreen;
-      margin: 0;
-      font-style: italic;
-    }
-    .intro-left-heading {
-      color: $gray;
-      font-size: 3.5rem;
-      font-weight: 400;
-      margin: 0;
-      line-height: 130%;
-    }
-    .intro-left-details {
-      display: flex;
-      margin: 2rem 0;
-      gap: 1rem;
-      .intro-left-photo {
-        width: 40%;
-        @include Flex();
-        justify-content: flex-start;
-        img {
-          height: 250px;
-          width: 250px;
-          background-color: rgb(47, 0, 255);
-        }
-      }
-      .intro-left-content {
-        width: 60%;
-        font-family: "pontano Sans";
-        p {
-          font-weight: 500;
-          font-size: 1.2rem;
-        }
-      }
-    }
+.intro-outer-container {
+  .upper-round {
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    transform: translateY(-100px);
+    background-color: white;
+    border-radius: 100px 100px 0 0;
   }
-  .intro-right {
-    width: 40%;
+  .intro-container {
     @include Flex();
-    gap: 3rem;
-    flex-direction: column;
-    .intro-right-item {
-      div {
-        color: white;
-        -webkit-text-stroke-width: 2px;
-        -webkit-text-stroke-color: $primary;
-        font-size: 8rem;
-        line-height: 100%;
-      }
-      p {
+    z-index: 100;
+    background-color: white;
+    padding: 2rem 7.5rem 15rem 7.5rem;
+    color: black;
+
+    .intro-left {
+      width: 60%;
+
+      h4 {
+        text-align: right;
+        font-family: "pontano Sans";
+        font-weight: 700;
+        font-size: 1.5rem;
+        color: darkgreen;
         margin: 0;
-        padding: 10px 0;
-        background-color: white;
-        font-size: 1.4rem;
-        font-family: "Pontano Sans";
-        transform: translateY(-25px);
+        font-style: italic;
+      }
+      .intro-left-heading {
+        color: $gray;
+        font-size: 3.5rem;
+        font-weight: 400;
+        margin: 0;
+        line-height: 130%;
+      }
+      .intro-left-details {
+        display: flex;
+        margin: 2rem 0;
+        gap: 1rem;
+        .intro-left-photo {
+          width: 40%;
+          @include Flex();
+          justify-content: flex-start;
+          img {
+            height: 250px;
+            width: 250px;
+            background-color: rgb(47, 0, 255);
+          }
+        }
+        .intro-left-content {
+          width: 60%;
+          font-family: "pontano Sans";
+          p {
+            font-weight: 500;
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+    .intro-right {
+      width: 40%;
+      @include Flex();
+      gap: 3rem;
+      flex-direction: column;
+      .intro-right-item {
+        div {
+          color: white;
+          -webkit-text-stroke-width: 2px;
+          -webkit-text-stroke-color: $primary;
+          font-size: 8rem;
+          line-height: 100%;
+        }
+        p {
+          margin: 0;
+          padding: 10px 0;
+          background-color: white;
+          font-size: 1.4rem;
+          font-family: "Pontano Sans";
+          transform: translateY(-25px);
+        }
       }
     }
   }

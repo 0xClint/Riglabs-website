@@ -10,18 +10,22 @@ import {
   Sponsors,
   Team,
 } from "../components";
+import HorizontalSlider from "../components/HorizontalSlider";
 
 const Home = () => {
   return (
     <div>
-      <Header />
+      <div style={{ position: "absolute", zIndex: 10, width: "100%" }}>
+        <Header />
+      </div>
       <Hero />
+      <HorizontalSlider />
       <Intro />
       <Games />
       <Connect />
+      <Sponsors />
       <Features />
       <Team />
-      <Sponsors />
       <Footer />
     </div>
   );
