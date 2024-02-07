@@ -22,6 +22,10 @@
     }
   }
   .header-middle {
+    a {
+      text-decoration: none;
+      color: white;
+    }
     width: 50%;
     @include Flex();
     justify-content: space-around;

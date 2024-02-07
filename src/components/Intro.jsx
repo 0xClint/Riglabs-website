@@ -11,7 +11,7 @@ const Intro = () => {
             WE ARE A WEB3 GAME STUDIO, CONNNECTING PEOPLE TO THEIR LOCAL LAND
             <span style={{ color: "black" }}> "KNOW THYSELF"</span>
           </h2>
-          <h4> - SOCRATES</h4>
+          <h4> - Socrates</h4>
           <div className="intro-left-details">
             <div className="intro-left-photo">
               <img />

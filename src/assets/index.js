@@ -11,6 +11,7 @@ import huddle01 from "./hackathon won/huddle01.png";
 import skyImg from "./sky.png";
 import LogoImg from "./logo.svg";
 import blockflow from "./hackathon won/blockflow.png";
+import dataverseOS from "./hackathon won/dataverseOS.png"
 
 export {
     hyperlandGame,
@@ -25,5 +26,6 @@ export {
     huddle01,
     skyImg,
     LogoImg,
-    blockflow
+    blockflow,
+    dataverseOS
 }

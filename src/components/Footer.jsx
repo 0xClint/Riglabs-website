@@ -5,7 +5,7 @@ import { LogoImg } from "../assets";
 
 const Footer = () => {
   return (
-    <div className="footer-outer-container">
+    <div className="footer-outer-container" id="footer">
       <div className="footer-container">
         <div className="footer-left">
           <div>
@@ -47,7 +47,9 @@ const Footer = () => {
           <div className="footer-right-item">
             <h3>Say Hello</h3>
             <div className="link-item">
-              <Link className="link">hi@riglabs.studio</Link>
+              <a className="link" href="mailto:hello@riglabs.studio">
+                hello@riglabs.studio
+              </a>
               <Link className="link">+91 989450284</Link>
               <Link className="link">Our Games</Link>
             </div>

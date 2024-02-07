@@ -4,13 +4,13 @@ import { clintImg } from "../assets";
 
 const Team = () => {
   return (
-    <div className="team-container">
+    <div className="team-container" id="team">
       <div className="team-title">
         <div>
           <h2 className="our">OUR </h2>
           <h2>TEAM</h2>
         </div>
-        <button className="btn">view all games</button>
+        {/* <button className="btn">view all games</button> */}
       </div>
       <div className="team-card-container">
         <div className="team-card">

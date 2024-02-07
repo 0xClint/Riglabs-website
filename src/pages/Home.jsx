@@ -19,7 +19,7 @@ const Home = () => {
         <Header />
       </div>
       <Hero />
-      <HorizontalSlider />
+      {/* <HorizontalSlider /> */}
       <Intro />
       <Games />
       <Connect />

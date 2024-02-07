@@ -3,6 +3,7 @@ import "./Sponsors.scss";
 import {
   blockflow,
   blocsocIcon,
+  dataverseOS,
   ethIndia23,
   huddle01,
   tablelandIcon,
@@ -29,7 +30,7 @@ const Sponsors = () => {
               <img src={unfold23} />
             </div>
             <div className="sponsor-card">
-              <img src={huddle01} />
+              <img src={dataverseOS} />
             </div>
           </div>
         </div>
@@ -67,7 +68,7 @@ const Sponsors = () => {
               <img src={tablelandIcon} />
             </div>
             <div className="sponsor-card">
-              <img src={blocsocIcon} />
+              <img src={huddle01} />
             </div>
           </div>
         </div>

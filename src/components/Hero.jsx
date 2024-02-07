@@ -15,7 +15,9 @@ const Hero = () => {
           Lorem ipsum dolor sit amet consectetur adipiscing diam tortor sit
           feugiat dictum eu diam
         </h3>
-        <button className="btn">Our Games</button>
+        <a href="#games">
+          <button className="btn">Our Games</button>
+        </a>
       </div>
       <video autoPlay muted loop src={introVideo} className="" />
     </div>

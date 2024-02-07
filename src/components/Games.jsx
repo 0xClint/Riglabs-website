@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Games.scss";
 import { arcaveGame, hyperlandGame, warfieldGame } from "../assets";
 
 const Games = () => {
+  const [text, setText] = useState("view all games");
+
+  const handleClick = () => {
+    setText("comming Soon!");
+    setTimeout(() => {
+      setText("view all games");
+    }, 2000);
+  };
   return (
-    <div className="games-outer-container">
+    <div className="games-outer-container" id="games">
       <div className="upper-round"></div>
       <div className="games-container">
         <div className="games-title">
@@ -12,7 +20,9 @@ const Games = () => {
             <h2 className="our">OUR </h2>
             <h2>GAMES</h2>
           </div>
-          <button className="btn">view all games</button>
+          <button className="btn" onClick={() => handleClick()}>
+            {text}
+          </button>
         </div>
         <div className="game-item-container">
           <a

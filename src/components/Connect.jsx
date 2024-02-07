@@ -7,7 +7,7 @@ import { skyImg } from "../assets";
 
 const Connect = () => {
   return (
-    <div className="connect-outer-container">
+    <div className="connect-outer-container" id="explore">
       <div className="upper-round"></div>
       <div className="connect-container">
         <div className="connect-left">
@@ -20,7 +20,9 @@ const Connect = () => {
             We are open minded game studio who belives in collaboration and that
             working togethre can bring out more engaging games.
           </p>
-          <button className="btn">Let's Connect</button>
+          <a href="mailto:hello@riglabs.studio">
+            <button className="btn">Let's Connect</button>
+          </a>
         </div>
         <div className="connect-right">
           <div className="model-container">

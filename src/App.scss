@@ -1,3 +1,5 @@
+@import "./styles/mixin.scss";
+
 .App {
   text-align: center;
 }
@@ -46,9 +48,10 @@ body {
   overflow-x: hidden;
 
   .btn {
+    color: white;
     font-family: "anton";
     text-transform: uppercase;
-    background-color: aqua;
+    background-color: $primary;
     padding: 1rem;
     width: 150px;
     font-size: 1.1rem;
