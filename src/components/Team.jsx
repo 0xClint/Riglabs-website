@@ -17,28 +17,28 @@ const Team = () => {
           <img src={clintImg} />
           <div className="title">
             <h2>Shivam</h2>
-            <p>posi</p>
+            <p>Co-founder</p>
           </div>
         </div>
         <div className="team-card">
           <img src={clintImg} />
           <div className="title">
             <h2>Omkar</h2>
-            <p>posi</p>
+            <p>Co-founder</p>
           </div>
         </div>
         <div className="team-card">
           <img src={clintImg} />
           <div className="title">
             <h2>Vansh</h2>
-            <p>posi</p>
+            <p> Product Head</p>
           </div>
         </div>
         <div className="team-card">
           <img src={clintImg} />
           <div className="title">
             <h2>Alok</h2>
-            <p>posi</p>
+            <p>Blockchain Lead </p>
           </div>
         </div>
       </div>

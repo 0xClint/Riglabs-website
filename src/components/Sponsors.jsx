@@ -43,7 +43,8 @@ const Sponsors = () => {
           </div>
           <div className="sponsor-card-container">
             <div className="sponsor-card">
-              <img src={blockflow} />
+              {/* <img src={blockflow} /> */}
+              <img src={blocsocIcon} />
             </div>
             <div className="sponsor-card">
               <img src={tablelandIcon} />
