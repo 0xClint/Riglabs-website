@@ -1,13 +1,16 @@
 import React from "react";
 import "./Footer.scss";
 import { Link } from "react-router-dom";
+import { LogoImg } from "../assets";
 
 const Footer = () => {
   return (
     <div className="footer-outer-container">
       <div className="footer-container">
         <div className="footer-left">
-          <div>LOGO</div>
+          <div>
+            <img src={LogoImg} width={110} />
+          </div>
           <p>
             Rig lab is an independent game studio making original games for PC,
             consoles, and mobile platforms.

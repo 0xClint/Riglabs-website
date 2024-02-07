@@ -11,9 +11,17 @@
       width: 30%;
       color: $gray;
       div {
-        height: 50px;
+        height: 80px;
         font-size: 2rem;
         font-weight: 600;
+        img {
+          cursor: pointer;
+          transition: ease-in-out 200ms;
+          &:hover {
+            scale: 1.05;
+            transition: ease-in-out 200ms;
+          }
+        }
       }
       p {
       }

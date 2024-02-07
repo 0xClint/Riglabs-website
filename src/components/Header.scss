@@ -11,6 +11,15 @@
     font-family: "anton";
     font-size: 2rem;
     @include Flex();
+
+    img {
+      cursor: pointer;
+      transition: ease-in-out 200ms;
+      &:hover {
+        scale: 1.05;
+        transition: ease-in-out 200ms;
+      }
+    }
   }
   .header-middle {
     width: 50%;
@@ -23,8 +32,10 @@
     list-style: none;
     .middle-item {
       cursor: pointer;
+      transition: ease-in-out 200ms;
       &:hover {
         scale: 1.05;
+        transition: ease-in-out 200ms;
       }
     }
   }

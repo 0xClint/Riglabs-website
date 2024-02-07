@@ -1,6 +1,7 @@
 import React from "react";
 import "./Sponsors.scss";
 import {
+  blockflow,
   blocsocIcon,
   ethIndia23,
   huddle01,
@@ -41,7 +42,7 @@ const Sponsors = () => {
           </div>
           <div className="sponsor-card-container">
             <div className="sponsor-card">
-              <img src={blocsocIcon} />
+              <img src={blockflow} />
             </div>
             <div className="sponsor-card">
               <img src={tablelandIcon} />
