@@ -34,12 +34,27 @@
     }
     .connect-right {
       width: 70%;
-      @include Flex();
-      img {
-        width: 500px;
+      // @include Flex();
+
+      .model-container {
+        width: 700px;
         height: 500px;
-        background-color: blueviolet;
-        border-radius: 30px;
+        overflow: hidden;
+        img {
+          // z-index: -1;
+          height: 500px;
+          position: absolute;
+          border-radius: 30px;
+        }
+        div {
+          z-index: 10;
+          @include Flex();
+          height: 600px;
+          width: 700px;
+          .layer {
+            position: absolute;
+          }
+        }
       }
     }
   }

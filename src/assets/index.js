@@ -8,6 +8,7 @@ import tablelandIcon from "./tablelandIcon.png";
 import unfold23 from "./hackathon won/unfold23.png";
 import ethIndia23 from "./hackathon won/ETHIndia.png";
 import huddle01 from "./hackathon won/huddle01.png";
+import skyImg from "./sky.png";
 
 export {
     hyperlandGame,
@@ -19,5 +20,6 @@ export {
     tablelandIcon,
     unfold23,
     ethIndia23,
-    huddle01
+    huddle01,
+    skyImg
 }
