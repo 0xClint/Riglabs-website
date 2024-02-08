@@ -11,11 +11,12 @@ const Features = () => {
               <img />
             </div>
             <div className="features-item-right">
-              <h2>GAME DEVELOPMENT</h2>
+              <h2>WEB3 GAME DEV</h2>
               <p>
-                Our works have been internationally recognized for their design,
-                stories and art direction. Together, we can transform your ideas
-                into captivating games, on desktop, mobile or console.
+                Riglabs pioneers Web3 gaming, blending blockchain tech with
+                captivating narratives for immersive experiences. Our commitment
+                to innovation pushes boundaries, redefining player interaction
+                in decentralized entertainment.
               </p>
               <button className="btn-secondary">Learn More</button>
             </div>
@@ -25,11 +26,12 @@ const Features = () => {
               <img />
             </div>
             <div className="features-item-right">
-              <h2>GAME DEVELOPMENT</h2>
+              <h2>3D ANIMATION</h2>
               <p>
-                Our works have been internationally recognized for their design,
-                stories and art direction. Together, we can transform your ideas
-                into captivating games, on desktop, mobile or console.
+                With state-of-the-art techniques, Riglabs crafts visually
+                stunning worlds and characters. Each frame is meticulously
+                designed to evoke emotion and spark imagination, delivering
+                unparalleled visual experiences.
               </p>
               <button className="btn-secondary">Learn More</button>
             </div>
@@ -39,11 +41,12 @@ const Features = () => {
               <img />
             </div>
             <div className="features-item-right">
-              <h2>GAME DEVELOPMENT</h2>
+              <h2>OUR CULTURE</h2>
               <p>
-                Our works have been internationally recognized for their design,
-                stories and art direction. Together, we can transform your ideas
-                into captivating games, on desktop, mobile or console.
+                At Riglabs, diversity and inclusivity are celebrated, fostering
+                a dynamic environment where every voice matters. Passion drives
+                our collaborative team, shaping a culture defined by excellence,
+                integrity, and fun.
               </p>
               <button className="btn-secondary">Learn More</button>
             </div>
@@ -53,11 +56,12 @@ const Features = () => {
       <div className="features-right">
         <div className="features-right-inner">
           <h2 className="our">OUR</h2>
-          <h2>CAPABILITIES</h2>
+          <h2>STRENGTHS</h2>
           <p>
             <div>
-              Games are a language of storytelling. We’re looking for games that
-              develop and expand this language.
+              Riglabs combines cutting-edge technology and creative storytelling
+              to craft immersive experiences that captivate audiences of all
+              ages.
             </div>
           </p>
           <button className="btn">Learn More</button>

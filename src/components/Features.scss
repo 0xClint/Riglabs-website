@@ -30,6 +30,9 @@
           }
         }
         .features-item-right {
+          .btn-secondary {
+            display: none;
+          }
           h2 {
             margin: 0;
             line-height: 100px;
@@ -84,7 +87,7 @@
         justify-content: flex-end;
         align-items: flex-end;
         div {
-          width: 500px;
+          width: 600px;
         }
       }
     }
