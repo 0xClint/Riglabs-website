@@ -29,7 +29,9 @@ const Hero = () => {
           <button className="btn">Our Games</button>
         </a>
       </div>
-      <video autoPlay muted loop src={introVideo} className="" />
+      <div className="video-container">
+        <video autoPlay muted loop src={introVideo} className="" />
+      </div>
     </div>
   );
 };
