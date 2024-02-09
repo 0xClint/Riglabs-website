@@ -40,9 +40,9 @@
         margin: 2rem 0;
         gap: 1rem;
         .intro-left-photo {
-          width: 40%;
+          width: 300px;
           @include Flex();
-          justify-content: flex-start;
+          justify-content: center;
           img {
             height: 250px;
             width: 250px;
@@ -79,6 +79,111 @@
           font-size: 1.4rem;
           font-family: "Pontano Sans";
           transform: translateY(-25px);
+        }
+      }
+    }
+  }
+
+  @media (max-width: 1650px) {
+    .intro-container {
+      .intro-left {
+        .intro-left-details {
+          .intro-left-photo {
+            justify-content: flex-start;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 1280px) {
+    .upper-round {
+      height: 80px;
+      transform: translateY(-100%);
+    }
+    .intro-container {
+      padding: 0rem 0% 15rem 5%;
+      .intro-left {
+        width: 70%;
+        .intro-left-heading {
+          font-size: 2.9rem;
+        }
+        .intro-left-details {
+          .intro-left-photo {
+            justify-content: flex-start;
+          }
+        }
+      }
+      .intro-right {
+        width: 30%;
+      }
+    }
+  }
+  @media (max-width: 800px) {
+    .intro-container {
+      flex-direction: column;
+      padding: 0rem 3% 10rem 3%;
+      gap: 2rem;
+      .intro-left {
+        width: 100%;
+        .intro-left-details {
+          .intro-left-content {
+            width: 60%;
+            p {
+              font-size: 1.1rem;
+            }
+          }
+        }
+      }
+      .intro-right {
+        width: 100%;
+        justify-content: space-around;
+        flex-direction: row;
+        .intro-right-item {
+          @include Flex();
+          flex-direction: column;
+        }
+      }
+    }
+  }
+  @media (max-width: 500px) {
+    .upper-round {
+      height: 60px;
+    }
+    .intro-container {
+      flex-direction: column;
+      padding: 0rem 3% 7rem 3%;
+      .intro-left {
+        .intro-left-heading {
+          font-size: 2.5rem;
+        }
+        h4 {
+          margin-top: 10px;
+          font-size: 1.2rem;
+        }
+        .intro-left-details {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          .intro-left-photo {
+            width: 300px;
+            @include Flex();
+            justify-content: center;
+            img {
+              height: 300px;
+              width: 300px;
+            }
+          }
+          .intro-left-content {
+            width: 100%;
+          }
+        }
+      }
+      .intro-right {
+        flex-direction: column;
+        gap: 1rem;
+        .intro-right-item {
+          @include Flex();
+          flex-direction: column;
         }
       }
     }

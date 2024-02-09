@@ -49,4 +49,23 @@
     @include Flex();
     list-style: none;
   }
+
+  @media (max-width: 650px) {
+    padding: 0.7rem;
+    .header-left {
+      width: 90px;
+      img {
+        width: 100%;
+      }
+    }
+    .header-middle {
+      display: none;
+    }
+    .header-right {
+      width: auto;
+      .btn {
+        transform: scale(0.8) translateX(9%);
+      }
+    }
+  }
 }

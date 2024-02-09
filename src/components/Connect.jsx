@@ -11,11 +11,7 @@ const Connect = () => {
       <div className="upper-round"></div>
       <div className="connect-container">
         <div className="connect-left">
-          <h2>
-            EXPLORE
-            <br /> BUIDL & <br />
-            COLLAB
-          </h2>
+          <h2>EXPLORE BUIDL & COLLAB</h2>
           <p>
             We are open minded game studio who belives in collaboration and that
             working togethre can bring out more engaging games.

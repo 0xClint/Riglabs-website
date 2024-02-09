@@ -16,17 +16,21 @@
   }
   .hero-content {
     z-index: 1;
-    padding: 10rem 0 0rem 0;
-    // height: 100%;
+    // padding: 10rem 0 0rem 0;
+    @include Flex();
+    gap: 2rem;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100%;
     position: absolute;
-    margin: 0 7.5rem;
+    margin: 0 10%;
     p {
-      font-size: 10rem;
+      font-size: 12rem;
       margin: 0;
       line-height: 100%;
     }
     .heading1 {
-      margin: 0;
+      margin: 10% 0 0 0;
     }
     .heading2 {
       @include Flex();
@@ -48,8 +52,78 @@
       width: 60%;
       font-weight: 600;
       margin: 10px 0;
-      font-size: 1.5rem;
+      font-size: 2.5rem;
       font-family: "Pontano Sans";
+    }
+  }
+
+  @media (max-width: 1650px) {
+    .hero-content {
+      gap: 0.5rem;
+      p {
+        font-size: 9rem;
+      }
+      h3 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  @media (max-width: 1030px) {
+    // video {
+    //   height: 100%;
+    // }
+    .hero-content {
+      gap: 0.5rem;
+      margin: 0 7%;
+      p {
+        font-size: 7rem;
+      }
+      h3 {
+        font-size: 1.2rem;
+      }
+      .btn {
+        transform: scale(0.8) translateX(-12%);
+      }
+    }
+  }
+  @media (max-width: 900px) {
+    video {
+      height: 100vh;
+    }
+    .hero-content {
+      gap: 0.2rem;
+      margin: 0 7%;
+      p {
+        font-size: 6rem;
+      }
+      h3 {
+        font-size: 1rem;
+      }
+      .btn {
+        transform: scale(0.8) translateX(-12%);
+      }
+    }
+  }
+  @media (max-width: 650px) {
+    // height: 100vh;
+    video {
+      height: 100vh;
+    }
+    .hero-content {
+      gap: 0.5rem;
+      margin: 0 10%;
+      p {
+        font-size: 6rem;
+      }
+      .heading1 {
+        margin: 20% 0 0 0;
+      }
+      h3 {
+        font-size: 1.5rem;
+      }
+      .btn {
+        transform: scale(0.9) translateX(0);
+      }
     }
   }
 }
