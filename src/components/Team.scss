@@ -38,7 +38,8 @@
     margin: 5rem 0;
     width: 100%;
     @include Flex();
-    justify-content: space-between;
+    gap: 3rem;
+
     .team-card {
       width: 290px;
       height: 350px;
@@ -64,6 +65,61 @@
       }
       img {
         height: 100%;
+      }
+    }
+  }
+  @media (max-width: 1500px) {
+    padding: 7rem 5% 5rem 5%;
+    .team-card-container {
+      justify-content: space-around;
+      gap: 1rem;
+    }
+  }
+  @media (max-width: 1200px) {
+    // padding: 5rem 5% 5rem 5%;
+    .team-card-container {
+      justify-content: space-around;
+      gap: 1rem;
+      .team-card {
+        width: 240px;
+        height: 290px;
+        .title {
+          width: 220px;
+        }
+      }
+    }
+  }
+  @media (max-width: 1000px) {
+    padding: 5rem 10% 5rem 10%;
+    .team-title {
+      div {
+        h2 {
+          font-size: 6rem;
+        }
+      }
+    }
+    .team-card-container {
+      margin: 3rem 0;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 3rem;
+      .team-card {
+        width: 240px;
+        height: 290px;
+        .title {
+          width: 220px;
+        }
+      }
+    }
+  }
+  @media (max-width: 600px) {
+    padding: 5rem 10% 4rem 10%;
+    border-radius: 50px 50px 0 0;
+    .team-title {
+      div {
+        h2 {
+          font-size: 4rem;
+        }
       }
     }
   }

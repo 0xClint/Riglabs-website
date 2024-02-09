@@ -24,7 +24,7 @@ const Home = () => {
       <Games />
       <Connect />
       <Sponsors />
-      {/* <Features /> */}
+      <Features />
       <Team />
       <Footer />
     </div>
