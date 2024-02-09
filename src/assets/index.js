@@ -11,7 +11,16 @@ import huddle01 from "./hackathon won/huddle01.png";
 import skyImg from "./sky.png";
 import LogoImg from "./logo.svg";
 import blockflow from "./hackathon won/blockflow.png";
-import dataverseOS from "./hackathon won/dataverseOS.png"
+import dataverseOS from "./hackathon won/dataverseOS.png";
+import XIcon from "./XIcon.svg";
+import linkedinIcon from "./linkedinIcon.svg";
+import peopleIcon from "./peopleIcon.png";
+import modelIcon from "./3DIcon.png";
+import blockchainIcon from "./blockChainIcon.png";
+import shivamPic from "./shivam.png";
+import omkarPic from "./omkar.png";
+import vanshPic from "./vansh.png";
+import alokPic from "./alok.png"
 
 export {
     hyperlandGame,
@@ -27,5 +36,14 @@ export {
     skyImg,
     LogoImg,
     blockflow,
-    dataverseOS
+    dataverseOS,
+    XIcon,
+    linkedinIcon,
+    peopleIcon,
+    modelIcon,
+    blockchainIcon,
+    shivamPic,
+    omkarPic,
+    vanshPic,
+    alokPic
 }

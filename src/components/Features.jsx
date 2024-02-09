@@ -1,5 +1,6 @@
 import React from "react";
 import "./Features.scss";
+import { blockchainIcon, modelIcon, peopleIcon } from "../assets";
 
 const Features = () => {
   return (
@@ -8,7 +9,7 @@ const Features = () => {
         <div className="features-left-content">
           <div className="features-item">
             <div className="features-item-left">
-              <img />
+              <img src={blockchainIcon} />
             </div>
             <div className="features-item-right">
               <h2>WEB3 GAME DEV</h2>
@@ -23,7 +24,7 @@ const Features = () => {
           </div>
           <div className="features-item">
             <div className="features-item-left">
-              <img />
+              <img src={modelIcon} />
             </div>
             <div className="features-item-right">
               <h2>3D ANIMATION</h2>
@@ -38,7 +39,7 @@ const Features = () => {
           </div>
           <div className="features-item">
             <div className="features-item-left">
-              <img />
+              <img src={peopleIcon} />
             </div>
             <div className="features-item-right">
               <h2>OUR CULTURE</h2>

@@ -3,7 +3,7 @@ import "./Intro.scss";
 
 const Intro = () => {
   return (
-    <div className="intro-outer-container">
+    <div className="intro-outer-container" id="intro">
       <div className="upper-round"></div>
       <div className="intro-container">
         <div className="intro-left">

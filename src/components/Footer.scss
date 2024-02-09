@@ -51,6 +51,23 @@
               color: white;
             }
           }
+
+          .socials {
+            h3 {
+              font-size: 1.2rem;
+            }
+            .social-container {
+              @include Flex();
+              gap: 1rem;
+              a {
+                transition: ease-in-out 200ms;
+                &:hover {
+                  scale: 1.05;
+                  transition: ease-in-out 200ms;
+                }
+              }
+            }
+          }
         }
       }
     }

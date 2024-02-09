@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.scss";
 import { Link } from "react-router-dom";
-import { LogoImg } from "../assets";
+import { LogoImg, XIcon, linkedinIcon } from "../assets";
 
 const Footer = () => {
   return (
@@ -20,19 +20,23 @@ const Footer = () => {
           <div className="footer-right-item">
             <h3>Our Studio</h3>
             <div className="link-item">
-              <Link className="link">About Us</Link>
-              <Link className="link">Out Team</Link>
-              <Link className="link">Our Games</Link>
-              <Link className="link">Community</Link>
+              <a className="link" href="#intro">
+                About Us
+              </a>
+              <a className="link" href="#team">
+                Out Team
+              </a>
+              <a className="link" href="#team">
+                Our Games
+              </a>
             </div>
           </div>
           <div className="footer-right-item">
             <h3>Services</h3>
             <div className="link-item">
-              <Link className="link">About Us</Link>
+              <Link className="link">Games</Link>
               <Link className="link">Out Team</Link>
               <Link className="link">Our Games</Link>
-              <Link className="link">Community</Link>
             </div>
           </div>
           <div className="footer-right-item">
@@ -40,7 +44,7 @@ const Footer = () => {
             <div className="link-item">
               <Link className="link">About Us</Link>
               <Link className="link">Out Team</Link>
-              <Link className="link">Our Games</Link>
+
               <Link className="link">Community</Link>
             </div>
           </div>
@@ -50,8 +54,24 @@ const Footer = () => {
               <a className="link" href="mailto:hello@riglabs.studio">
                 hello@riglabs.studio
               </a>
-              <Link className="link">+91 989450284</Link>
-              <Link className="link">Our Games</Link>
+              <a className="link" href="#team">
+                Our Games
+              </a>
+              <div className="socials">
+                <h3>Socials</h3>
+                <div className="social-container">
+                  <a
+                    href="https://www.linkedin.com/company/rig-labs"
+                    target={"_blank"}
+                    rel="noopener noreferrer"
+                  >
+                    <img src={linkedinIcon} width={30} fill={"#fffff"} alt="" />
+                  </a>
+                  <a href="#" target={"_blank"} rel="noopener noreferrer">
+                    <img src={XIcon} width={30} fill={"#fffff"} alt="" />
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>

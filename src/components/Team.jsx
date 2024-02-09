@@ -1,6 +1,6 @@
 import React from "react";
 import "./Team.scss";
-import { clintImg } from "../assets";
+import { alokPic, clintImg, omkarPic, shivamPic, vanshPic } from "../assets";
 
 const Team = () => {
   return (
@@ -14,28 +14,28 @@ const Team = () => {
       </div>
       <div className="team-card-container">
         <div className="team-card">
-          <img src={clintImg} />
+          <img src={shivamPic} />
           <div className="title">
             <h2>Shivam</h2>
             <p>Co-founder</p>
           </div>
         </div>
         <div className="team-card">
-          <img src={clintImg} />
+          <img src={omkarPic} />
           <div className="title">
             <h2>Omkar</h2>
             <p>Co-founder</p>
           </div>
         </div>
         <div className="team-card">
-          <img src={clintImg} />
+          <img src={vanshPic} />
           <div className="title">
             <h2>Vansh</h2>
             <p> Product Head</p>
           </div>
         </div>
         <div className="team-card">
-          <img src={clintImg} />
+          <img src={alokPic} />
           <div className="title">
             <h2>Alok</h2>
             <p>Blockchain Lead </p>
