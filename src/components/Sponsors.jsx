@@ -49,9 +49,9 @@ const Sponsors = () => {
             <div className="sponsor-card">
               <img src={tablelandIcon} />
             </div>
-            <div className="sponsor-card">
+            {/* <div className="sponsor-card">
               <img src={blocsocIcon} />
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="title-container">
