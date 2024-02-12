@@ -14,6 +14,7 @@ import blockflow from "./hackathon won/blockflow.png";
 import dataverseOS from "./hackathon won/dataverseOS.png";
 import XIcon from "./XIcon.svg";
 import linkedinIcon from "./linkedinIcon.svg";
+import discordIcon from "./discordIcon1.svg";
 import peopleIcon from "./peopleIcon.png";
 import modelIcon from "./3DIcon.png";
 import blockchainIcon from "./blockChainIcon.png";
@@ -40,6 +41,7 @@ export {
     dataverseOS,
     XIcon,
     linkedinIcon,
+    discordIcon,
     peopleIcon,
     modelIcon,
     blockchainIcon,

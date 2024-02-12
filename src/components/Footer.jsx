@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.scss";
 import { Link } from "react-router-dom";
-import { LogoImg, XIcon, linkedinIcon } from "../assets";
+import { LogoImg, XIcon, discordIcon, linkedinIcon } from "../assets";
 
 const Footer = () => {
   return (
@@ -66,6 +66,13 @@ const Footer = () => {
                     rel="noopener noreferrer"
                   >
                     <img src={linkedinIcon} width={30} fill={"#fffff"} alt="" />
+                  </a>
+                  <a
+                    href="https://discord.com/invite/UrGj7cAP"
+                    target={"_blank"}
+                    rel="noopener noreferrer"
+                  >
+                    <img src={discordIcon} width={30} fill={"#fffff"} alt="" />
                   </a>
                   <a
                     href="https://twitter.com/LabsRIG"
