@@ -21,6 +21,7 @@ import shivamPic from "./shivam.png";
 import omkarPic from "./omkar.png";
 import vanshPic from "./vansh.png";
 import alokPic from "./alok.png"
+import nikuPic from "./niiku.png"
 
 export {
     hyperlandGame,
@@ -45,5 +46,6 @@ export {
     shivamPic,
     omkarPic,
     vanshPic,
-    alokPic
+    alokPic,
+    nikuPic
 }

@@ -36,8 +36,9 @@
   }
   .team-card-container {
     margin: 5rem 0;
-    width: 100%;
     @include Flex();
+    flex-wrap: wrap;
+    width: 90%;
     gap: 3rem;
 
     .team-card {
@@ -70,16 +71,12 @@
   }
   @media (max-width: 1500px) {
     padding: 7rem 5% 5rem 5%;
-    .team-card-container {
-      justify-content: space-around;
-      gap: 1rem;
-    }
+    // .team-card-container {
+    // }
   }
   @media (max-width: 1200px) {
     // padding: 5rem 5% 5rem 5%;
     .team-card-container {
-      justify-content: space-around;
-      gap: 1rem;
       .team-card {
         width: 240px;
         height: 290px;
@@ -100,8 +97,6 @@
     }
     .team-card-container {
       margin: 3rem 0;
-      flex-wrap: wrap;
-      justify-content: center;
       gap: 3rem;
       .team-card {
         width: 240px;

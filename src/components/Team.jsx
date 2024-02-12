@@ -1,6 +1,13 @@
 import React from "react";
 import "./Team.scss";
-import { alokPic, clintImg, omkarPic, shivamPic, vanshPic } from "../assets";
+import {
+  alokPic,
+  clintImg,
+  nikuPic,
+  omkarPic,
+  shivamPic,
+  vanshPic,
+} from "../assets";
 
 const Team = () => {
   return (
@@ -39,6 +46,13 @@ const Team = () => {
           <div className="title">
             <h2>Alok</h2>
             <p>Blockchain Lead </p>
+          </div>
+        </div>
+        <div className="team-card">
+          <img src={nikuPic} />
+          <div className="title">
+            <h2>Niku Singh</h2>
+            <p>Frontend Dev </p>
           </div>
         </div>
       </div>

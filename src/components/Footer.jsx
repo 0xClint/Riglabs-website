@@ -67,7 +67,11 @@ const Footer = () => {
                   >
                     <img src={linkedinIcon} width={30} fill={"#fffff"} alt="" />
                   </a>
-                  <a href="#" target={"_blank"} rel="noopener noreferrer">
+                  <a
+                    href="https://twitter.com/LabsRIG"
+                    target={"_blank"}
+                    rel="noopener noreferrer"
+                  >
                     <img src={XIcon} width={30} fill={"#fffff"} alt="" />
                   </a>
                 </div>
