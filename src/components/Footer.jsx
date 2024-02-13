@@ -8,9 +8,11 @@ const Footer = () => {
     <div className="footer-outer-container" id="footer">
       <div className="footer-container">
         <div className="footer-left">
-          <div>
-            <img src={LogoImg} width={110} />
-          </div>
+          <a href="#header">
+            <div>
+              <img src={LogoImg} width={110} />
+            </div>
+          </a>
           <p>
             Rig lab is an independent game studio making original games for PC,
             consoles, and mobile platforms.
