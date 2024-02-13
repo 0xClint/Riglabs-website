@@ -24,6 +24,7 @@ import vanshPic from "./vansh.png";
 import alokPic from "./alok.png"
 import nikuPic from "./niiku.png";
 import aryaPic from "./aryaPic.png";
+import riglabOffice from "./riglabtemp.png"
 
 export {
     hyperlandGame,
@@ -51,5 +52,5 @@ export {
     vanshPic,
     alokPic,
     nikuPic,
-    aryaPic
+    aryaPic, riglabOffice
 }

@@ -14,7 +14,7 @@ const Hero = () => {
                 .typeString("WE BUIDL")
                 .pauseFor(1000)
                 .deleteAll()
-                .typeString("THAT FEELS")
+                .typeString("EPIC")
                 .start();
             }}
           />
