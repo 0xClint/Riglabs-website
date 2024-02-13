@@ -53,7 +53,7 @@ const Team = () => {
           <img src={nikuPic} />
           <div className="title">
             <h2>Niku Singh</h2>
-            <p>Frontend Lead </p>
+            <p>Fullstack Dev </p>
           </div>
         </div>
         <div className="team-card">
