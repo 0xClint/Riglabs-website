@@ -2,6 +2,7 @@ import React from "react";
 import "./Team.scss";
 import {
   alokPic,
+  aryaPic,
   clintImg,
   nikuPic,
   omkarPic,
@@ -52,7 +53,14 @@ const Team = () => {
           <img src={nikuPic} />
           <div className="title">
             <h2>Niku Singh</h2>
-            <p>Frontend Dev </p>
+            <p>Frontend Lead </p>
+          </div>
+        </div>
+        <div className="team-card">
+          <img src={aryaPic} />
+          <div className="title">
+            <h2>Himanshu Arya</h2>
+            <p> DevRel</p>
           </div>
         </div>
       </div>
