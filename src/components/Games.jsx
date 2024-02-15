@@ -25,6 +25,11 @@ const Games = () => {
           </button>
         </div>
         <div className="game-item-container">
+          <div className="alertLine">
+            <marquee className="marquee">
+              MVP COMING SOON! * MVP COMING SOON! * MVP COMING SOON!
+            </marquee>
+          </div>
           <a
             className="game-item"
             href="https://devfolio.co/projects/hyperland-da6b"

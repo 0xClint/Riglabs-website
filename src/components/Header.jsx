@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.scss";
 import { LogoImg } from "../assets";
+import ConnectWallet from "./ConnectWallet";
 
 const Header = () => {
   return (
@@ -26,7 +27,9 @@ const Header = () => {
         </a>
       </div>
       <div className="header-right">
-        <button className="btn">Donate</button>
+        <ConnectWallet />
+        {/* <SendBtn /> */}
+        {/* <button className="btn">Donate</button> */}
       </div>
     </div>
   );

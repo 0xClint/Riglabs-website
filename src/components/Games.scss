@@ -44,6 +44,7 @@
       @include Flex();
       flex-direction: column;
       gap: 3rem;
+
       .game-item {
         color: white;
         width: 100%;
@@ -60,6 +61,27 @@
         div {
           position: absolute;
           font-size: 4rem;
+        }
+      }
+      .alertLine {
+        @include Flex();
+
+        border-radius: 5px;
+        padding: 1rem 0;
+        border: 2px solid #cb3a3a;
+        font-weight: 600;
+        font-size: 4rem;
+
+        .marquee {
+          // width: 500px;
+          margin: 0 1rem;
+        }
+
+        @media (max-width: 770px) {
+          margin: 10px 13px;
+          font-size: 1rem;
+          padding: 9px 6px;
+          text-align: center;
         }
       }
     }
