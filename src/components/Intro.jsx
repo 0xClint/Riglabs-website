@@ -50,11 +50,11 @@ const Intro = () => {
             <p>Hackathon wins</p>
           </div>
           <div className="intro-right-item">
-            <div>5+</div>
+            <div>2+</div>
             <p>Sponsors</p>
           </div>
           <div className="intro-right-item">
-            <div>10+</div>
+            <div>3+</div>
             <p>Community partners</p>
           </div>
         </div>

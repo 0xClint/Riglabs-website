@@ -26,7 +26,7 @@ const Footer = () => {
                 About Us
               </a>
               <a className="link" href="#team">
-                Out Team
+                Our Team
               </a>
               <a className="link" href="#team">
                 Our Games
@@ -34,11 +34,17 @@ const Footer = () => {
             </div>
           </div>
           <div className="footer-right-item">
-            <h3>Services</h3>
+            <h3>Strengths</h3>
             <div className="link-item">
-              <Link className="link">Games</Link>
-              <Link className="link">Out Team</Link>
-              <Link className="link">Our Games</Link>
+              <a href="#web3gamedev" className="link">
+                Web3 Game Dev
+              </a>
+              <a href="#3danimation" className="link">
+                3D Animation
+              </a>
+              <a href="#culture" className="link">
+                Our Culture
+              </a>
             </div>
           </div>
           <div className="footer-right-item">
@@ -56,7 +62,7 @@ const Footer = () => {
               <a className="link" href="mailto:hello@riglabs.studio">
                 hello@riglabs.studio
               </a>
-              <a className="link" href="#team">
+              <a className="link" href="#games">
                 Our Games
               </a>
               <div className="socials">
@@ -69,13 +75,13 @@ const Footer = () => {
                   >
                     <img src={linkedinIcon} width={30} fill={"#fffff"} alt="" />
                   </a>
-                  <a
+                  {/* <a
                     href="https://discord.com/invite/UrGj7cAP"
                     target={"_blank"}
                     rel="noopener noreferrer"
                   >
                     <img src={discordIcon} width={30} fill={"#fffff"} alt="" />
-                  </a>
+                  </a> */}
                   <a
                     href="https://twitter.com/LabsRIG"
                     target={"_blank"}

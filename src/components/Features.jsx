@@ -4,10 +4,10 @@ import { blockchainIcon, modelIcon, peopleIcon } from "../assets";
 
 const Features = () => {
   return (
-    <div className="features-container">
+    <div className="features-container" id="features">
       <div className="features-left">
         <div className="features-left-content">
-          <div className="features-item">
+          <div className="features-item" id="web3gamedev">
             <div className="features-item-left">
               <img src={blockchainIcon} />
             </div>
@@ -22,11 +22,11 @@ const Features = () => {
               <button className="btn-secondary">Learn More</button>
             </div>
           </div>
-          <div className="features-item">
+          <div className="features-item" id="3danimation">
             <div className="features-item-left">
               <img src={modelIcon} />
             </div>
-            <div className="features-item-right">
+            <div className="features-item-right" id="web3gamedev">
               <h2>3D ANIMATION</h2>
               <p>
                 With state-of-the-art techniques, Riglabs crafts visually
@@ -37,7 +37,7 @@ const Features = () => {
               <button className="btn-secondary">Learn More</button>
             </div>
           </div>
-          <div className="features-item">
+          <div className="features-item" id="culture">
             <div className="features-item-left">
               <img src={peopleIcon} />
             </div>
