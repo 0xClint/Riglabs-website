@@ -69,6 +69,9 @@ const Sponsors = () => {
               <img src={tablelandIcon} />
             </div>
             <div className="sponsor-card">
+              <img src={dataverseOS} />
+            </div>
+            <div className="sponsor-card">
               <img src={huddle01} />
             </div>
           </div>
