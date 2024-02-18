@@ -14,8 +14,8 @@ const Footer = () => {
             </div>
           </a>
           <p>
-            Rig lab is an independent game studio making original games for PC,
-            consoles, and mobile platforms.
+            Introducing a Web3 Game Studio: simplifying blockchain onboarding,
+            minimizing legal hurdles, embracing all gamers.
           </p>
         </div>
         <div className="footer-right">
@@ -28,7 +28,7 @@ const Footer = () => {
               <a className="link" href="#team">
                 Our Team
               </a>
-              <a className="link" href="#team">
+              <a className="link" href="#games">
                 Our Games
               </a>
             </div>
@@ -50,10 +50,25 @@ const Footer = () => {
           <div className="footer-right-item">
             <h3>Support</h3>
             <div className="link-item">
-              <Link className="link">About Us</Link>
-              <Link className="link">Out Team</Link>
-
-              <Link className="link">Community</Link>
+              <a className="link" href="mailto:hello@riglabs.studio">
+                Mail Us
+              </a>
+              <a
+                href="https://www.linkedin.com/company/99452355/admin/feed/posts/"
+                target={"_blank"}
+                rel="noopener noreferrer"
+                className="link"
+              >
+                Partner
+              </a>
+              <a
+                href="https://t.me/RIGLabsStudio"
+                target={"_blank"}
+                rel="noopener noreferrer"
+                className="link"
+              >
+                Message Us
+              </a>
             </div>
           </div>
           <div className="footer-right-item">
@@ -62,9 +77,9 @@ const Footer = () => {
               <a className="link" href="mailto:hello@riglabs.studio">
                 hello@riglabs.studio
               </a>
-              <a className="link" href="#games">
+              {/* <a className="link" href="#games">
                 Our Games
-              </a>
+              </a> */}
               <div className="socials">
                 <h3>Socials</h3>
                 <div className="social-container">
