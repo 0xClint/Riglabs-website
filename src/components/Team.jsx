@@ -42,13 +42,13 @@ const Team = () => {
             <p> Product Head</p>
           </div>
         </div>
-        <div className="team-card">
+        {/* <div className="team-card">
           <img src={alokPic} />
           <div className="title">
             <h2>Alok</h2>
             <p>Blockchain Lead </p>
           </div>
-        </div>
+        </div> */}
         <div className="team-card">
           <img src={nikuPic} />
           <div className="title">
