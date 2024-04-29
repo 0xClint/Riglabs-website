@@ -57,6 +57,13 @@ const Team = () => {
           </div>
         </div>
         <div className="team-card">
+          <img src={nithishPic} />
+          <div className="title">
+            <h2>Nithish Kondle</h2>
+            <p> Backend Developer</p>
+          </div>
+        </div>
+        <div className="team-card">
           <img src={aryaPic} />
           <div className="title">
             <h2>Himanshu Arya</h2>
